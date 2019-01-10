@@ -1,0 +1,42 @@
+.body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#theGrid{
+    display: flex;
+    border: solid;
+    height: 500px;
+    width: 500px;
+}
+
+.column{
+    height: 18px;
+    width: 18px;
+    border: solid black 1px;
+}
+
+.pixel{
+    height: 18px;
+    width: 18px;
+    border: solid black 1px;
+}
+
+#toolbox{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+}
+
+#palette{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+}
+
+#buttonBox{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+}
+
