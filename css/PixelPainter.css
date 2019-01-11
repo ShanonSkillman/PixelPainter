@@ -1,22 +1,37 @@
 .body{
     display: flex;
     flex-wrap: wrap;
+    background-image: url('https://media.giphy.com/media/3NeSk2IVEd2FYUQEcM/giphy.gif');
 }
+
 
 #theGrid{
     display: flex;
+    flex-wrap: wrap;
     border: solid;
     height: 500px;
     width: 500px;
 }
 
 .column{
+    display: flex;
+    flex-wrap: wrap;
     height: 18px;
     width: 18px;
     border: solid black 1px;
 }
 
 .pixel{
+    display: flex;
+    flex-wrap: wrap;
+    height: 18px;
+    width: 18px;
+    border: solid black 1px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
     height: 18px;
     width: 18px;
     border: solid black 1px;
@@ -25,18 +40,32 @@
 #toolbox{
     display: flex;
     flex-wrap: wrap;
-    border: solid;
+    height: 500px;
+    width: 800px;
 }
 
-#palette{
+#grid{
     display: flex;
     flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+}
+
+.palette{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space space-around;
+    height: 50px;
+    width: 50px;
     border: solid;
 }
 
 #buttonBox{
     display: flex;
-    flex-wrap: wrap;
     border: solid;
+    height: 100px;
+    width: 250px;
+    justify-content: space-evenly;
 }
 
