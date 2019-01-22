@@ -150,10 +150,3 @@ function loadMemory () {
 }
 
 })();
-
-//NEXT STEPS//
-// SAVE BUTTON 
-// LOAD BUTTON
-// GIPHY background
-// SOUND SAMPLES
-// COLOR PALETTE PICKER
