@@ -1,110 +1,109 @@
-body{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 20px;
-    left: 100;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAGWteZLdI1O27MZD1b0gAjWblM6tufrudChx4zwQ86okjfHCrA');
+body {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 20px;
+  left: 100;
+  background-image: url("http://wellworthsurgical.com/wp-content/uploads/parser/white-smoke-background-1.png");
 }
 
-@media screen and (max-width: 500px){
-    body{
-        justify-content: center
-    }
+@media screen and (max-width: 500px) {
+  body {
+    justify-content: center;
+  }
 }
 
-h1{
-    font-family: 'Roboto Mono', monospace;;
-    color: whitesmoke;
-    font-style: bold;
-    justify-content: space-around;
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: whitesmoke;
+  font-style: bold;
+  justify-content: space-around;
 }
 
-#theGrid{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 20px;
-    top: 80px;
-    border: solid;
-    height: 500px;
-    width: 500px;
+#theGrid {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  border: solid;
+  height: 500px;
+  width: 500px;
 }
 
-.column{
-    display: flex;
-    flex-wrap: wrap;
-    height: 18px;
-    width: 18px;
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  height: 18px;
+  width: 18px;
 }
 
-.pixel{
-    display: flex;
-    flex-wrap: wrap;
-    height: 18px;
-    width: 18px;
-    border: solid whitesmoke 1px;
+.pixel {
+  display: flex;
+  flex-wrap: wrap;
+  height: 18px;
+  width: 18px;
+  border: solid whitesmoke 1px;
 }
 
-.item{
-    display: flex;
-    flex-wrap: wrap;
-    height: 18px;
-    width: 18px;
-    border: solid whitesmoke 1px;
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  height: 18px;
+  width: 18px;
+  border: solid whitesmoke 1px;
 }
 
-#toolbox{
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 800px;
-    position: absolute;
-    top: 310px;
-    left: 500px;
+#toolbox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 800px;
+  position: absolute;
+  top: 310px;
+  left: 500px;
 }
 
-#grid{
-    display: flex;
-    flex-wrap: wrap;
-    height: 150px;
-    width: 150px;
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 150px;
 }
 
-.palette{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space space-around;
-    height: 50px;
-    width: 50px;
-    border: solid;
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space space-around;
+  height: 50px;
+  width: 50px;
+  border: solid;
 }
 
-#buttonBox{
-    display: flex;
-    border: solid;
-    height: 100px;
-    width: 250px;
-    justify-content: space-evenly;
-    position: absolute;
-    top: 300px;
-    left: -285px
-  
+#buttonBox {
+  display: flex;
+  border: solid;
+  height: 100px;
+  width: 250px;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 300px;
+  left: -285px;
 }
 
-#eraser{
-    font-family: 'Roboto Mono', monospace;
+#eraser {
+  font-family: "Roboto Mono", monospace;
 }
 
-#clear{
-    font-family: 'Roboto Mono', monospace;
+#clear {
+  font-family: "Roboto Mono", monospace;
 }
 
-#save{
-    font-family: 'Roboto Mono', monospace;
+#save {
+  font-family: "Roboto Mono", monospace;
 }
 
-#load{
-    font-family: 'Roboto Mono', monospace;
+#load {
+  font-family: "Roboto Mono", monospace;
 }
